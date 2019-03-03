@@ -17,18 +17,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <img src="images/community-icon.png" width="50px"/>
+                @*<img src="images/community-icon.png" width="50px"/>*@
                 @Html.ActionLink("Stack", "Index", "Home", Nothing, New With {.[class] = "navbar-brand"})
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <div class="dropdown">
-                            <button class="dropbtn">Events</button>
+                            <button class="dropbtn">Events </button>
                                 <div class="dropdown-content">
-                                    <a href="#">Seminar</a>
-                                    <a href="#">Workshop</a>
-                                    <a href="#">Exhibit</a>
+                                    <a href="http://localhost:49790/Home/Seminar">Seminar</a>
+                                    <a href="http://localhost:49790/Home/Workshop">Workshop</a>
+                                    <a href="http://localhost:49790/Home/Exhibit">Exhibit</a>
                                 </div>
                         </div>
                     </li>

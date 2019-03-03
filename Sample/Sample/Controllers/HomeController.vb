@@ -16,4 +16,19 @@
 
         Return View()
     End Function
+    Function Seminar() As ActionResult
+        ViewData("Message") = "You can add Seminars here."
+
+        Return View()
+    End Function
+    Function Workshop() As ActionResult
+        ViewData("Message") = "You can add Workshop here."
+
+        Return View()
+    End Function
+    Function Exhibit() As ActionResult
+        ViewData("Message") = "You can add Exhibits here."
+
+        Return View()
+    End Function
 End Class

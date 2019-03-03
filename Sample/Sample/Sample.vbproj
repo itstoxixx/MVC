@@ -259,6 +259,9 @@
     <Content Include="Views\Account\Manage.vbhtml" />
     <Content Include="Views\Account\Register.vbhtml" />
     <Content Include="Views\Shared\_LoginPartial.vbhtml" />
+    <Content Include="Views\Home\Seminar.vbhtml" />
+    <Content Include="Views\Home\Workshop.vbhtml" />
+    <Content Include="Views\Home\Exhibit.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
